@@ -79,7 +79,7 @@ class ProviderHome extends ChangeNotifier {
       convertedExpression = convertedExpression.replaceRange(
         match.start,
         match.end,
-        '*' + percentage.toString(),
+        '*$percentage',
       );
     }
 
