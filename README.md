@@ -1,6 +1,6 @@
 # DigiMath - Your Intelligent Math Companion
 
-![DigiMath Logo]
+![DigiMath Logo](https://raw.githubusercontent.com/althaafridha/DigiMath/main/assets/icons/DigiMath.png)
 
 Welcome to DigiMath, the innovative calculator app that redefines your math experience! With the power of Clean Architecture, DigiMath offers a seamless and intuitive way to perform various mathematical operations right at your fingertips.
 
