@@ -1,4 +1,5 @@
 import 'package:digimath/state/provider_splash/provider_splash.dart';
+import 'package:digimath/ui/config/shape.dart';
 import 'package:digimath/ui/config/spacing.dart';
 import 'package:digimath/ui/config/text.dart';
 import 'package:digimath/ui/config/typography.dart';
@@ -6,6 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../../config/color.dart';
+import '../../config/icon.dart';
 
 class SplashPageView extends StatefulWidget {
   const SplashPageView({super.key});
@@ -26,7 +28,8 @@ class _SplashPageViewState extends State<SplashPageView> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Icon(Icons.calculate, color: colorConfig(context), size: 100),
+                  Icon(appIcon,
+                      color: colorConfig(context), size: superLargeIconAppSize),
                   SizedBox(height: normalPadding),
                   Text(appName, style: largeText(context, null)),
                 ],

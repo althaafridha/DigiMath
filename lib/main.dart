@@ -1,5 +1,6 @@
 import 'package:digimath/ui/config/color.dart';
 import 'package:digimath/ui/config/routes.dart';
+import 'package:digimath/ui/config/text.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true
       ),
-      title: 'DigiMath',
+      title: appName,
        theme: ThemeData(
         colorScheme: ColorScheme.light(
           primary: primaryColor,
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true
       ),
-      initialRoute: '/splash',
+      initialRoute: initialRoute,
       routes: routes,
     );
   }

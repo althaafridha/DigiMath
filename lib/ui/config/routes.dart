@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 const String splashRoute = '/splash';
 const String homeRoute = '/home';
 
+const String initialRoute = splashRoute;
+
 final Map<String, WidgetBuilder> routes = {
   splashRoute: (context) => const SplashPageView(),
   homeRoute: (context) => const HomePageView(),
