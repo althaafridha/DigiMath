@@ -1,4 +1,4 @@
-import 'package:calculator_app/ui/config/routes.dart';
+import 'package:digimath/ui/config/routes.dart';
 import 'package:flutter/material.dart';
 
 class ProviderSplash extends ChangeNotifier {

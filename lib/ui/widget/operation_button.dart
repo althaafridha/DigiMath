@@ -1,5 +1,5 @@
-import 'package:calculator_app/state/provider_home/provider_home.dart';
-import 'package:calculator_app/ui/config/color.dart';
+import 'package:digimath/state/provider_home/provider_home.dart';
+import 'package:digimath/ui/config/color.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

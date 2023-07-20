@@ -1,5 +1,5 @@
-import 'package:calculator_app/ui/modules/home_page_view/home_page_view.dart';
-import 'package:calculator_app/ui/modules/splash_page_view/splash_page_view.dart';
+import 'package:digimath/ui/modules/home_page_view/home_page_view.dart';
+import 'package:digimath/ui/modules/splash_page_view/splash_page_view.dart';
 import 'package:flutter/material.dart';
 
 const String splashRoute = '/splash';

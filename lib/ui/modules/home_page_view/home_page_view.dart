@@ -1,10 +1,11 @@
-import 'package:calculator_app/state/provider_home/provider_home.dart';
-import 'package:calculator_app/ui/config/color.dart';
-import 'package:calculator_app/ui/config/shape.dart';
-import 'package:calculator_app/ui/config/spacing.dart';
-import 'package:calculator_app/ui/config/typography.dart';
-import 'package:calculator_app/ui/widget/number_button.dart';
-import 'package:calculator_app/ui/widget/operation_button.dart';
+import 'package:digimath/state/provider_home/provider_home.dart';
+import 'package:digimath/ui/config/color.dart';
+import 'package:digimath/ui/config/shape.dart';
+import 'package:digimath/ui/config/spacing.dart';
+import 'package:digimath/ui/config/text.dart';
+import 'package:digimath/ui/config/typography.dart';
+import 'package:digimath/ui/widget/number_button.dart';
+import 'package:digimath/ui/widget/operation_button.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -88,49 +89,49 @@ class _HomePageViewState extends State<HomePageView> {
                           Row(
                             children: [
                               OperationButton(
-                                  text: "AC", color: colorConfig(context)),
+                                  text: ac, color: colorConfig(context)),
                               OperationButton(
-                                  text: "+/-", color: colorConfig(context)),
+                                  text: plusMinus, color: colorConfig(context)),
                               OperationButton(
-                                  text: "%", color: colorConfig(context)),
+                                  text: percent, color: colorConfig(context)),
                               OperationButton(
-                                  text: "÷", color: colorConfig(context))
+                                  text: divide, color: colorConfig(context))
                             ],
                           ),
                           Row(
                             children: [
-                              const NumberButton(text: "7"),
-                              const NumberButton(text: "8"),
-                              const NumberButton(text: "9"),
+                              NumberButton(text: num7),
+                              NumberButton(text: num8),
+                              NumberButton(text: num9),
                               OperationButton(
-                                  text: "x", color: colorConfig(context))
+                                  text: multiply, color: colorConfig(context))
                             ],
                           ),
                           Row(
                             children: [
-                              const NumberButton(text: "4"),
-                              const NumberButton(text: "5"),
-                              const NumberButton(text: "6"),
+                              NumberButton(text: num4),
+                              NumberButton(text: num5),
+                              NumberButton(text: num6),
                               OperationButton(
-                                  text: "-", color: colorConfig(context))
+                                  text: minus, color: colorConfig(context))
                             ],
                           ),
                           Row(
                             children: [
-                              const NumberButton(text: "1"),
-                              const NumberButton(text: "2"),
-                              const NumberButton(text: "3"),
+                              NumberButton(text: num1),
+                              NumberButton(text: num2),
+                              NumberButton(text: num3),
                               OperationButton(
-                                  text: "+", color: colorConfig(context))
+                                  text: plus, color: colorConfig(context))
                             ],
                           ),
                           Row(
                             children: [
-                              const OperationButton(text: "⌫"),
-                              const NumberButton(text: "0"),
-                              const NumberButton(text: "."),
+                              OperationButton(text: delete),
+                              NumberButton(text: num0),
+                              NumberButton(text: dot),
                               OperationButton(
-                                text: "=",
+                                text: equal,
                                 backgroundColor: colorConfig(context),
                                 color: white,
                               )

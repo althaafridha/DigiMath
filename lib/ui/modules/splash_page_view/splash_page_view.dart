@@ -1,7 +1,7 @@
-import 'package:calculator_app/state/provider_splash/provider_splash.dart';
-import 'package:calculator_app/ui/config/spacing.dart';
-import 'package:calculator_app/ui/config/text.dart';
-import 'package:calculator_app/ui/config/typography.dart';
+import 'package:digimath/state/provider_splash/provider_splash.dart';
+import 'package:digimath/ui/config/spacing.dart';
+import 'package:digimath/ui/config/text.dart';
+import 'package:digimath/ui/config/typography.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

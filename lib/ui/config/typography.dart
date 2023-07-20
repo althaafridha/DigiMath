@@ -1,4 +1,4 @@
-import 'package:calculator_app/ui/config/color.dart';
+import 'package:digimath/ui/config/color.dart';
 import 'package:flutter/material.dart';
 
 String get fontFamily => 'Roboto';
